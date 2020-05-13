@@ -1,30 +1,22 @@
 # frontend
 
-> A Vue.js project
+> A Vue.js+django+mysql project
+
+# require
+>django==2.0.5
+>mysql==5.5+
+>vue2
 
 ## Build Setup
 
-``` bash
-# install dependencies
-npm install
+Setup Template
+$ git clone https://github.com/xinsixiangyi/django-mysql-vue.git
+$ cd frontend
+Setup
 
-# serve with hot reload at localhost:8080
-npm run dev
+$ yarn install
+$ pipenv install --dev && pipenv shell
 
-# build for production with minification
-npm run build
+#Change django and vue server address by yourself
 
-# build for production and view the bundle analyzer report
-npm run build --report
-
-# run unit tests
-npm run unit
-
-# run e2e tests
-npm run e2e
-
-# run all tests
-npm test
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+$ python manage.py migrate
