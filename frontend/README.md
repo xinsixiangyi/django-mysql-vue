@@ -1,6 +1,11 @@
 # frontend
 
-> A Vue.js project
+> A Vue.js+django+mysql project
+
+# require
+>django==2.0.5
+>mysql==5.5+
+>vue2
 
 ## Build Setup
 
