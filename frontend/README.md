@@ -1,6 +1,14 @@
 # frontend
 
 > A Vue.js+django+mysql project
+<<<<<<< HEAD
+=======
+
+# require
+>django==2.0.5
+>mysql==5.5+
+>vue2
+>>>>>>> 64912103c355a1ab032630d15ac994364fa761d8
 
 # require
 >django==2.0.5
